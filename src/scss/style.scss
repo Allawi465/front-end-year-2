@@ -1,0 +1,13 @@
+$blue: blue;
+
+.text {
+    display: none;
+
+    &-button {
+        background-color: $blue;
+    }
+}
+
+h1 {
+    color: $blue;
+}
