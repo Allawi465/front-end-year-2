@@ -42,7 +42,6 @@ console.log(metting);
 // Logs:
 // Hello, I am Ola Nordmann from Norway.
 
-
 // Destructuring parameters
 function greetPerson(personObject) {
     const { firstName, lastName } = personObject;
@@ -56,7 +55,6 @@ const Normann = {
   
 greetPerson(Normann);
 
-
 // You could instead destructure the properties from the object where the parameter is:
 function greetPerson({ firstName, lastName }) {
     console.log(`Hello ${firstName} ${lastName}.`);
@@ -68,7 +66,6 @@ const NormannPerson = {
 };
   
 greetPerson(NormannPerson);
-
 
 // example of destructure the properties from the object
 const people = [
